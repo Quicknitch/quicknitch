@@ -196,6 +196,9 @@ For TTS, DPO is computationally cheaper and more stable than full PPO, but GRPO 
 
 The four-stage pipeline, visualized:### 4.1 Inference-Time Compute Scaling
 
+<img width="1410" height="1162" alt="image" src="https://github.com/user-attachments/assets/99f2a643-23c6-4155-b813-8ccb5dbef841" />
+
+
 A key insight from o1/DeepSeek-R1 research is that **test-time compute scaling** applies to TTS as well. At inference, given $N_{\text{samples}}$ parallel generations, the expected maximum reward scales approximately as:
 
 $$\mathbb{E}\left[\max_{i \leq N} r(\mathbf{y}_i)\right] \approx r_{\mu} + \sigma_r \cdot \Phi^{-1}\left(\frac{N}{N+1}\right)$$
