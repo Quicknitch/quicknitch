@@ -208,6 +208,9 @@ Streaming inference uses the codec LM autoregressively at the coarse level (late
 
 ## Research Roadmap---
 
+<img width="1410" height="996" alt="image" src="https://github.com/user-attachments/assets/30a23163-2ab1-497b-aa37-888326ef67c1" />
+
+
 ## Key Theorems and Propositions (Summary)
 
 **Theorem 1 (Compute-Optimal Speech Scaling):** For a codec LM with $\alpha_c = 0.30, \beta_c = 0.24$, the Chinchilla-optimal parameter count scales as $N^* \propto C^{0.44}$ and optimal token count as $D^* \propto C^{0.56}$ — slightly more data-heavy than text LLMs, requiring roughly 20 speech tokens per parameter at optimality.
