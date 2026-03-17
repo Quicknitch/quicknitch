@@ -45,6 +45,9 @@ Using $\alpha_c = 0.30, \beta_c = 0.24$, this gives $D^* / N^* \approx 18$–$22
 
 Based on extrapolations from VALL-E (Wang et al., 2023, ~60K hours), SoundStorm (Borsos et al., 2023), and VoiceBox (Le et al., 2023):The three emergence regimes correspond to qualitatively different capability thresholds. Concretely:
 
+<img width="1410" height="870" alt="image" src="https://github.com/user-attachments/assets/6dd5c046-68ec-4189-a57a-17a83310bdc7" />
+
+
 | Capability | $N^*$ | $D^*$ (hours) | $C^*$ (FLOPs) |
 |---|---|---|---|
 | Naturalness ≥ human MOS threshold | ~400M | ~20K hrs | ~$10^{21}$ |
